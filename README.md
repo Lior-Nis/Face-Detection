@@ -3,7 +3,15 @@
 In this project, I have built an object detection model that is capable of detecting various objects such as faces, license plates, trees, etc. in pictures and videos. The model uses deep learning algorithms and computer vision techniques to accurately identify and locate objects in the input media.
 
 ## Dependencies
-The following dependencies are required to run the model:
+
+### The following dependencies are required to run the model real time detection app:
+* OpenCV 4.2.0 or later
+* Numpy 1.19.5 or later
+* TensorFlow 2.0 or later
+* GoogleDriveDownloader 0.4 or later
+
+
+### The following dependencies are required to replicate the model creation:
 
 * Python 3.8 or later
 * TensorFlow 2.0 or later
@@ -17,10 +25,6 @@ The following dependencies are required to run the model:
 * shutil 0.1.0 or later
 * uuid 1.30 or later
 
-## Installation
-To install the required dependencies, run the following command:
-
-```pip install -r requirements.txt```
 
 ## Usage
 To use the object detection model, follow these steps:
